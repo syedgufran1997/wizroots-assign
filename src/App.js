@@ -17,14 +17,14 @@ function App() {
   const [url, setUrl] = useState("");
   const [showModel, setShowModel] = useState(false);
 
-  const fetchData = () => {
-    axios
-      .get(
-        `https://newsapi.org/v2/everything?q=apple&from=2022-04-04&to=2022-04-04&sortBy=popularity&apiKey=${apikey}`
-      )
-      .then((res) => setData(res.data.articles))
-      .catch((err) => console.log(err));
-  };
+  // const fetchData = () => {
+  //   axios
+  //     .get(
+  //       `https://newsapi.org/v2/everything?q=apple&from=2022-04-04&to=2022-04-04&sortBy=popularity&apiKey=${apikey}`
+  //     )
+  //     .then((res) => setData(res.data.articles))
+  //     .catch((err) => console.log(err));
+  // };
   const fetchDataCategory = () => {
     axios
       .get(
@@ -129,6 +129,7 @@ function App() {
               ) {
                 return value;
               }
+              return "";
             })
             .map((item, index) => (
               <NewsCard
