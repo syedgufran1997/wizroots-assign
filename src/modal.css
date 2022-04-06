@@ -1,0 +1,69 @@
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  margin: 100px auto 0;
+  transition: all 0.8s;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.modal-header {
+  padding: 3px 20px;
+  text-align: right;
+}
+
+.modal-body {
+  padding: 1em 2em;
+  /* height: 40vh; */
+}
+.modal-body h3 {
+  font-weight: 800;
+  color: black;
+}
+.modal-footer {
+  background: #e2e2e2;
+  height: 35px;
+  padding: 15px;
+}
+
+.close-modal-btn {
+  /* color: white; */
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  margin: 0;
+}
+
+.close-modal-btn:hover {
+  color: black;
+}
+
+.btn-cancel {
+  background-color: #b71c1c;
+  float: left;
+}
+
+.btn-continue {
+  background-color: #1b5e20;
+  float: right;
+}
+
+.back-shed {
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%;
+}
+
+.open-modal-btn {
+  margin: 15px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-wrapper {
+    width: 50%;
+  }
+}

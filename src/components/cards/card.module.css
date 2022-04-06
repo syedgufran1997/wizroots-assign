@@ -1,0 +1,62 @@
+.cardMainWrapper {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px #00000010;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 0.5em;
+  margin: 1em auto;
+}
+
+.cardMainWrapper .contentWrap {
+}
+
+.cardMainWrapper .contentWrap h5 {
+  margin: 0px;
+}
+
+.authorWrap {
+  display: flex;
+}
+.authorWrap p {
+  color: grey;
+  font-size: 0.8em;
+  margin: 0.3em 0;
+  margin-right: 1em;
+}
+.description {
+  font-size: 0.8em;
+  margin: 0.5em auto 0;
+}
+.cardMainWrapper .imgWrap {
+  border-radius: 9px;
+}
+.cardMainWrapper .imgWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cardMainWrapper {
+    padding: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .description {
+    font-size: 0.8em;
+  }
+  .contentWrap {
+    width: 70%;
+  }
+  .imgWrap {
+    height: 150px;
+    width: 25%;
+  }
+}

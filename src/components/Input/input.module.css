@@ -1,0 +1,23 @@
+.inputMainWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px #00000010;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 0.5em 0.8em;
+}
+.inputMainWrapper .imgWrap {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.inputMainWrapper input {
+  border: none;
+  width: 95%;
+  color: grey;
+  outline: none;
+  padding: 0.1em 0.5em;
+}

@@ -1,0 +1,21 @@
+.buttonWrap {
+}
+.buttonWrap button {
+  cursor: pointer;
+  background-color: lightgrey;
+  padding: 0.3em 1em;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 1em 1em 1.5em 0;
+}
+.buttonWrap button:hover {
+  background-color: #00f0c2;
+  border: 1px solid #00f0c2;
+}
+
+.buttonWrap button:focus-within {
+  background-color: #00f0c2;
+  border: 1px solid #00f0c2;
+}
